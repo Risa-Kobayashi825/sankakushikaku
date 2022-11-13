@@ -42,7 +42,7 @@ body {
 
 /* ヘッダー */
 header {
-    height: 50px;
+    height: 75px;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -55,12 +55,13 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 5px;
-    height: 50px;
+    width: 91%;
+    height: 75px;
+    margin: 0 auto;
 }
-.logo {
-    width: 35%;
-    height: auto;
+.header-logo {
+    width: auto;
+    height: 70px;
 }
 .header-menu-list {
     display: flex;
@@ -92,14 +93,14 @@ h1 {
 
 @media screen and (min-width:767px) {
   header {
-      height: 100px;
+      height: 105px;
   }
+  .header-logo {
+    height: 90px;
+}
   .header-nav {
-      padding: 0px 50px;
-      height: 100px;
-  }
-  .logo {
-      width: 200px;
+      width: 70%;
+      height: 105px;
   }
   .header-menu-list__item {
       padding: 0px 10px;
