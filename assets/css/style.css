@@ -132,6 +132,7 @@ h1 {
 }
 .section-txt {
   margin: 0;
+  text-align: left;
 }
 
 @media screen and (min-width:767px) {
@@ -150,6 +151,9 @@ h1 {
       max-width: 1000px;
       margin: 0 auto;
       padding-top: 105px;
+  }
+  .section-txt {
+    text-align: center;
   }
 }
 
@@ -177,7 +181,7 @@ h1 {
 }
 .product-name {
     font-weight: bold;
-    height: 56px;
+    height: 45px;
 }
 .product-name,
 .product-txt {
@@ -185,7 +189,7 @@ h1 {
     padding-bottom: 10px;
 }
 .product-txt {
-  height: 80px;
+  height: 110px;
 }
 .product-price {
     text-align: end;
@@ -198,6 +202,9 @@ h1 {
     .collection-list__item {
       width: 32%;
     }
+    .product-name {
+      height: 55px;
+  }
     .product-txt {
       height: 120px;
     }
