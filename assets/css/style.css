@@ -317,6 +317,9 @@ h1 {
 .submit-btn:hover {
   opacity: 0.6;
 }
+textarea {
+  resize: none;
+}
 
 @media screen and (min-width:767px) {
   .contact-item {
